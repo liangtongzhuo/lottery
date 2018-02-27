@@ -1,0 +1,63 @@
+
+body {
+  background-color: yellow;
+  margin: 0;
+}
+
+body .background {
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body .top{
+  width: 100%;
+  height: 200px;
+  background-image:url(../img/big-screen-banner.png);  
+}
+
+body .box{
+  padding: 20px 20px 20px 20px;
+  height: 450px;  
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body .box .boxcontent{
+  border-radius: 10px;    
+  width: 100%;
+  height: 100%;
+  background-image:url(../img/machine.png);  
+}
+
+body .box .boxcontent .frame{
+  width: 100%;
+  height: 82%;
+  background-image:url(../img/star-2.png);  
+  position: relative;
+}
+
+body .box .boxcontent .frame .bottombox {
+  position: absolute;
+  overflow: hidden;  
+  bottom: 54px;
+  width: 100%;  
+  padding-left: 55px;
+  padding-right: 55px;
+  box-sizing: border-box;
+
+}
+
+
+body .box .boxcontent .frame .bottombox .scorebox{
+  overflow: hidden;      
+}
+
+body .box .boxcontent .frame .bottombox .score {
+  width: 300%;
+}
+
+body .box .boxcontent .frame .bottombox .score img{
+  width: 50px;
+  margin-left: -15px;  
+}

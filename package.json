@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/liangtongzhuo/lottery#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "art-template": "^4.12.2",
+    "express": "^4.16.2",
+    "express-art-template": "^1.0.0"
   }
 }
