@@ -21,6 +21,7 @@ body .box{
   height: 450px;  
   width: 100%;
   box-sizing: border-box;
+  text-align: center;
 }
 
 body .box .boxcontent{
@@ -48,7 +49,6 @@ body .box .boxcontent .frame .bottombox {
 
 }
 
-
 body .box .boxcontent .frame .bottombox .scorebox{
   overflow: hidden;      
 }
@@ -61,3 +61,21 @@ body .box .boxcontent .frame .bottombox .score img{
   width: 50px;
   margin-left: -15px;  
 }
+
+body .box .boxcontent .btn{
+  background-image:url(../img/btn-lottery.png);  
+  color: #fff;
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+}
+
+
+body .box .boxcontent .arm{
+  color: #fff;
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  margin: 77px;
+}
+
