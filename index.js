@@ -11,10 +11,10 @@ app.use('/static', express.static('public'));
 
 app.get('/', function (req, res) {
     res.render('index.html', {
-        user: {
-            name: '李先生',
-            tags: ['art', 'template', 'nodejs']
-        }
+        // user: {
+        //     name: '李先生',
+        //     tags: ['art', 'template', 'nodejs']
+        // }
     });
 });
 
