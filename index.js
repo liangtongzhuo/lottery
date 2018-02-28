@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
 
 // 获取获奖用户数据用户数据
 app.get('api/get', function (req, res) {
-    mongoose.model('users')(req.params.tab).find({})
+    mongoose.model('users').find({})
         .exec(function(err, docs) {
             if (err) {
                 next(err);
